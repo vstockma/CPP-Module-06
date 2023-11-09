@@ -6,7 +6,7 @@
 /*   By: vstockma <vstockma@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/06 15:30:03 by vstockma          #+#    #+#             */
-/*   Updated: 2023/11/06 16:08:16 by vstockma         ###   ########.fr       */
+/*   Updated: 2023/11/08 15:16:35 by vstockma         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,12 @@ class ScalarConverter
         ScalarConverter& operator=(const ScalarConverter& copy);
         ~ScalarConverter();
     public:
-        static void convert(const std::string& literal);
+        static void convert(const std::string literal);
+        static void convertchar(const std::string literal);
+        static void convertint(const std::string literal);
+        static void convertfloat(std::string literal);
+        static void convertdouble(std::string literal);
+        static void checkpseudoliterals(std::string literal);
 };
 
 #endif

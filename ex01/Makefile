@@ -6,13 +6,13 @@
 #    By: vstockma <vstockma@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/11/06 15:29:39 by vstockma          #+#    #+#              #
-#    Updated: 2023/11/06 15:29:40 by vstockma         ###   ########.fr        #
+#    Updated: 2023/11/08 15:20:04 by vstockma         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = conversion
 
-SRC = main.cpp ScalarConverter.cpp
+SRC = main.cpp Serializer.cpp
 
 OBJ = $(SRC:.cpp=.o)
 

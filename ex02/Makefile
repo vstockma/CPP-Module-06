@@ -6,13 +6,13 @@
 #    By: vstockma <vstockma@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/11/06 15:29:39 by vstockma          #+#    #+#              #
-#    Updated: 2023/11/06 15:29:40 by vstockma         ###   ########.fr        #
+#    Updated: 2023/11/09 12:27:49 by vstockma         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = conversion
+NAME = abc
 
-SRC = main.cpp ScalarConverter.cpp
+SRC = main.cpp Base.cpp
 
 OBJ = $(SRC:.cpp=.o)
 
